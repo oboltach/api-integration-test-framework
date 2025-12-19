@@ -1,0 +1,10 @@
+{
+  "valid_user": {
+    "email":"olga.boltach+3@test.com",
+    "password": "Test1234"
+  },
+  "invalid_user": {
+    "email":"olga.boltach+3@test.com",
+    "password": "wrong_pass"
+  }
+}
