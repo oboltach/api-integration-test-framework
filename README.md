@@ -2,7 +2,7 @@
 
 A production-grade **API integration testing framework** built with **Node.js**, **Axios**, **Mocha**, **Chai**, **AJV (JSON Schema validation)**, and **PostgreSQL**.
 
-The framework validates **API behavior, contracts, authentication flows, retry logic, and database persistence** using real HTTP calls and real backend state — without mocking.
+The framework validates **end-to-end API behavior, contracts, authentication flows, user CRUD lifecycle (create, read, update, delete), contract validation, retry logic, and database persistence** using real HTTP calls and real backend state — without mocking.
 
 It demonstrates how to build a **maintainable, extensible, and CI-ready API testing framework** suitable for real-world backend services.
 
@@ -20,6 +20,12 @@ It demonstrates how to build a **maintainable, extensible, and CI-ready API test
 - Login helpers for test setup
 - In-memory session token management
 - Automatic `Authorization` header handling
+
+### User workflow coverage (CRUD)
+- Create, read, update, and delete user flows validated end-to-end
+- Authorization and role-based access enforced per operation
+- Database state verification for write operations
+- Positive and negative path coverage
 
 ### Contract (schema) validation
 - JSON Schema validation using **AJV**
