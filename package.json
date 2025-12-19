@@ -1,0 +1,23 @@
+{
+  "name": "api-integration-test-framework",
+  "version": "1.0.0",
+  "description": "Production-grade API integration testing framework with contract and database validation",
+  "type": "module",
+  "scripts": {
+    "test": "mocha \"tests/**/*.spec.js\"",
+    "test:db": "ALLOW_DB_TESTS=true mocha \"tests/**/*.spec.js\""
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "axios": "^1.13.2",
+    "chai": "^6.2.1",
+    "dotenv": "^17.2.3",
+    "mocha": "^11.7.5",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
